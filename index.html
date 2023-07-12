@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Введіть ID поста</h1>
+        <div class="search-container">
+          <input type="text" id="post-id" placeholder="Введіть ID поста">
+          <button id="search-button">Пошук</button>
+        </div>
+        <div id="post-container" style="display: none;">
+          <h2 id="post-title"></h2>
+          <p id="post-body"></p>
+          <button id="comments-button">Отримати коментарі</button>
+          <div id="comments-container"></div>
+        </div>
+      </div>
+    
+  <script src="script.js" defer></script>
+</body>
+</html>
